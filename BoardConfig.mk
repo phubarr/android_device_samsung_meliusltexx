@@ -1,4 +1,5 @@
 # Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2014 The LiquidSmooth Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,18 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from melius-common
+# Inherit from common melius
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
 # Assert
-#TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,i9205,GT-I9205
-
-# External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
+TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,i9205,GT-I9205
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 
 # NFC
 BOARD_HAVE_NFC := true
