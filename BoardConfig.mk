@@ -22,5 +22,8 @@ TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,i9205,GT-I9205
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
 
+# LIQUID OPTIMIZATIONS
+LIQUIFY := true
+
 # NFC
 BOARD_HAVE_NFC := true
