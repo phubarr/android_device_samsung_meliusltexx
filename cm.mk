@@ -29,6 +29,10 @@ PRODUCT_NAME := cm_meliusltexx
 PRODUCT_MODEL := GT-I9205
 PRODUCT_MANUFACTURER := samsung
 
+# Device uses high-density artwork where available
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=I9205XXUDNE4 \
