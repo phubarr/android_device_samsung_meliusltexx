@@ -25,5 +25,5 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 	
 # OTA ID
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    otaupdater.otaid=liquidmeliusltexx
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidmeliusltexx
