@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
+$(call inherit-product, device/samsung/meliusltexx/full_meliusltexx.mk)
+
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
-$(call inherit-product, device/samsung/meliusltexx/full_meliusltexx.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # product
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := Samsung
-PRODUCT_NAME := cm_meliusltexx
+PRODUCT_NAME := slim_meliusltexx
 PRODUCT_MODEL := GT-I9205
 PRODUCT_MANUFACTURER := samsung
 
