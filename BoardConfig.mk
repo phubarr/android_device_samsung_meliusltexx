@@ -18,8 +18,14 @@
 # Assert
 #TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,i9205,GT-I9205
 
-# External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
+# Compiler flags
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := true
+SUPPRES_UNUSED_WARNING := true
+TARGET_GCC_VERSION_EXP := 4.8
+TARGET_USE_PIPE := true
+USE_O3_OPTIMIZATIONS := true
+KRAIT_TUNINGS := true
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
