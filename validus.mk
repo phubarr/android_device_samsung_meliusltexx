@@ -15,17 +15,17 @@
 #
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/meliusltexx/full_meliusltexx.mk)
 
 # product
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := Samsung
-PRODUCT_NAME := cm_meliusltexx
+PRODUCT_NAME := validus_meliusltexx
 PRODUCT_MODEL := GT-I9205
 PRODUCT_MANUFACTURER := samsung
 
