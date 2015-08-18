@@ -15,9 +15,6 @@
 # Inherit from melius-common
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
-# Assert
-#TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltexx,i9205,GT-I9205
-
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
 
@@ -29,7 +26,6 @@ TARGET_UNOFFICIAL_BUILD_ID := temasek
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_eur_lte_defconfig
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 
 # NFC
 BOARD_HAVE_NFC := true
