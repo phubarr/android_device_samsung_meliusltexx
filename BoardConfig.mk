@@ -19,7 +19,7 @@
 TARGET_EXTERNAL_APPS = sdcard1
 
 # Default toolchain
-TARGET_GCC_VERSION_EXP := 5.1
+TARGET_GCC_VERSION_EXP := 4.8
 
 # Custom unofficial build tag
 TARGET_UNOFFICIAL_BUILD_ID := temasek
