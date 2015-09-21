@@ -33,7 +33,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.ota.romname=temasek-melius \
 ro.ota.version=$(shell date +%F | sed s@-@@g) \
-ro.ota.manifest=https://dl.dropboxusercontent.com/s/ak7xqv7g9t7yl5k/temasek-melius.xml?dl=1
+ro.ota.manifest=http://sileshn.github.io/temasek/temasek-melius.xml
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
